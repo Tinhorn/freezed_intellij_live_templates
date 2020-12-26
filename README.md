@@ -12,5 +12,4 @@ For our purposes, we just need to:
 - Create the _template_ directory if not there already and add the [Freezed.xml](Freezed.xml) in there 
 
 There should be a Live Template Group called Freezed.
-
-![Freezed Live Template](https://github.com/Tinhorn/freezed_intellij_live_templates/blob/main/resources/Screenshot%202020-12-25%20202705.png "Freezed Live Template Group)
+![Freezed Live Template](resources\Screenshot 2020-12-25 202705.png "Freezed Live Template Group")
