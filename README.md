@@ -7,7 +7,7 @@ All the information on sharing live templates can be found [here](https://www.je
 
 For our purposes, we just need to:
 - Go to configuration directory
-  - [IntelliJ](https://www.jetbrains.com/help/idea/tuning-the-ide.html#default-dirs)
+  - [IntelliJ](https://www.jetbrains.com/help/idea/tuning-the-ide.html#config-directory)
   - [Android Studio](https://developer.android.com/studio/intro/studio-config#file_location)
 - Create the _template_ directory if not there already and add the [Freezed.xml](Freezed.xml) in there 
 
