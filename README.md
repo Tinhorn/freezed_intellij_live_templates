@@ -6,9 +6,9 @@ Create boiler plate code faster so you can get to your bussiness logic
 All the information on sharing live templates can be found [here](https://www.jetbrains.com/help/idea/sharing-live-templates.html)
 
 For our purposes, we just need to:
-- Go to configuration directory [folder](https://www.jetbrains.com/help/idea/tuning-the-ide.html#default-dirs)
-  - The default is %APPDATA%\JetBrains\<product><version> i.e     C:\Users\JohnS\AppData\Roaming\JetBrains\IntelliJIdea2020.3
-  - For Android Studio Users: %APPDATA%\\__Google__\<product><version> i.e C:\Users\JohnS\AppData\Roaming\\__Google__\AndroidStudio4.1
+- Go to configuration directory
+  - [IntelliJ](https://www.jetbrains.com/help/idea/tuning-the-ide.html#default-dirs)
+  - [Android Studio](https://developer.android.com/studio/intro/studio-config#file_location)
 - Create the _template_ directory if not there already and add the [Freezed.xml](Freezed.xml) in there 
 
 There should be a Live Template Group called Freezed.
