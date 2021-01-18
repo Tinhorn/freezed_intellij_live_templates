@@ -4,7 +4,6 @@
 Create boiler plate code faster so you can get to your bussiness logic
 ## Installation
 
-
 - Download the [Live Template Zip file](freezed_live_templates.zip)
 - Choose File | Manage IDE Settings | Import Settings from the menu.
 - Specify the path to the archive with the exported live template configuration.
