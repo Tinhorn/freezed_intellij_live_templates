@@ -21,7 +21,7 @@ Further information on importing live templates can be found [here](https://www.
 ~~Begin to~~ type __freezedClass__ and press <kbd>Tab</kbd> to generate a freezed class
 ```dart
 @freezed
-abstract class Demo with _$Demo {
+class Demo with _$Demo {
 }
 ```
 
