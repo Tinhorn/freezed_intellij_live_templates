@@ -1,5 +1,5 @@
 <templateSet group="Freezed">
-  <template name="freezedClass" value="@freezed&#10;abstract class $NAME$ with _$$$NAME$ {&#10;}" description="Create a freezed Class" toReformat="true" toShortenFQNames="true">
+  <template name="freezedClass" value="@freezed&#10;class $NAME$ with _$$$NAME$ {&#10;}" description="Create a freezed Class" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART_TOPLEVEL" value="true" />
