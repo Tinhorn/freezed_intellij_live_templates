@@ -1,0 +1,36 @@
+<templateSet group="Freezed">
+    <template name="freezedClass" value="@freezed&#10;class $NAME$ with _$$$NAME$ {&#10;}" description="Create a freezed Class" toReformat="true" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="DART_TOPLEVEL" value="true" />
+        </context>
+    </template>
+    <template name="freezedPart" value="part '$FILENAME$.freezed.dart';&#10;" description="add a freezed part statement" toReformat="true" toShortenFQNames="true">
+        <variable name="FILENAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="DART_TOPLEVEL" value="true" />
+        </context>
+    </template>
+    <template name="freezedJsonPart" value="part '$FILENAME$.g.dart';&#10;" description="add the json_serializabe part statement" toReformat="false" toShortenFQNames="true">
+        <variable name="FILENAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="DART_TOPLEVEL" value="true" />
+        </context>
+    </template>
+    <template name="freezedFromJson" value="factory $NAME$.fromJson(Map&lt;String, dynamic&gt; json) =&gt; _$$$NAME$FromJson(json);" description="create a freezed fromJson method" toReformat="true" toShortenFQNames="true">
+        <variable name="NAME" expression="dartClassName()" defaultValue="" alwaysStopAt="false" />
+        <context>
+            <option name="DART" value="true" />
+            <option name="DART_STATEMENT" value="false" />
+            <option name="DART_TOPLEVEL" value="false" />
+        </context>
+    </template>
+    <template name="freezedConst" value="const factory $NAME$() = _$NAME$;&#10;" description="Create a basic freezed constructor" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="dartClassName()" defaultValue="" alwaysStopAt="false" />
+        <context>
+            <option name="DART" value="true" />
+            <option name="DART_STATEMENT" value="false" />
+            <option name="DART_TOPLEVEL" value="false" />
+        </context>
+    </template>
+</templateSet>
