@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 ### Added
-- Example item
+- Moving from a xml file to a plugin for easier usage
 
 ### Changed
 
@@ -13,3 +13,4 @@
 ### Fixed
 
 ### Security
+
