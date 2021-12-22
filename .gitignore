@@ -46,7 +46,7 @@
 # *.ipr
 
 # Gradle
-!gradle/wrapper/gradle-wrapper.jar
+\!gradle-wrapper.jar
 
 # CMake
 cmake-build-*/
