@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [1.0.2]
 ### Added
 - Added Flutter plugin dependency
 
