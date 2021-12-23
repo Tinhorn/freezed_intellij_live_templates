@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+### Changed
+- Changed Description to match plugin download
 
 ## [1.0.0]
 ### Added
