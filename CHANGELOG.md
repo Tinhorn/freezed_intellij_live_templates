@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [1.0.1]
 ### Changed
 - Changed Description to match plugin download
 
@@ -10,12 +12,3 @@
 
 ### Changed
 - Added Version Plugin
-
-### Deprecated
-
-### Removed
-
-### Fixed
-
-### Security
-
