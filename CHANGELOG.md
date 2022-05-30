@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## [1.0.3]
+### Added
+- Updated Intellij Version
+
 ## [1.0.2]
 ### Added
 - Added Flutter plugin dependency
