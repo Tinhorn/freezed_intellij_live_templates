@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [1.0.3]
 ### Added
 - Updated Intellij Version
 
