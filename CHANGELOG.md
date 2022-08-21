@@ -1,9 +1,11 @@
 # Changelog
 
 ## [Unreleased]
+### Changed
 - Updated Intellij Version
 - Updated Intellij Gradle version
 
+## [1.0.3]
 ### Added
 - Updated Intellij Version
 
