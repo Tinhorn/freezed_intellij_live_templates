@@ -1,6 +1,11 @@
 # Changelog
 
 ## [Unreleased]
+### Changed
+- Removed deprecated constructor
+- Updated Intellij Version
+- Updated Intellij Gradle version
+- Updated Kotlin Version
 
 ## [1.0.5]
 ### Changed

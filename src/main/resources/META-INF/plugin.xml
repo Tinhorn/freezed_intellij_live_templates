@@ -11,7 +11,8 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <defaultLiveTemplates file="/liveTemplates/Flutter.xml"/>
-        <liveTemplateContext implementation="com.fawaz.github.flutterfreezedsnippets.FlutterContext" />
+        <liveTemplateContext  implementation="com.fawaz.github.flutterfreezedsnippets.FlutterContext"
+                             contextId="com.fawaz.github.flutterfreezedsnippets.FLUTTER_FREEZED_SNIPPETS"/>
     </extensions>
 
     <actions>
