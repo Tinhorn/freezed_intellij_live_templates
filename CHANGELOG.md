@@ -1,6 +1,8 @@
 # Changelog
 
 ## [Unreleased]
+
+## [1.0.6]
 ### Changed
 - Removed deprecated constructor
 - Updated Intellij Version
