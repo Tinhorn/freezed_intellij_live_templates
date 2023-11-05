@@ -1,6 +1,7 @@
 # Changelog
 
 ## [Unreleased]
+### Changed
 - Updated Intellij Version 
 
 ## [1.0.6]
