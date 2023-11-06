@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 ### Changed
+- Upgrading Gradle Version
+
+
+## [1.0.7]
+### Changed
 - Updated Intellij Version 
 
 ## [1.0.6]
