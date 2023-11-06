@@ -1,3 +1,4 @@
+<!-- Plugin description -->
 # freezed_intellij_live_templates
 [Live Templates](https://www.jetbrains.com/help/idea/using-live-templates.html) for the [freezed](https://pub.dev/packages/freezed) package in the intellij ecosystem.
 
@@ -51,3 +52,4 @@ part 'scratch.g.dart';
 
 ## Contact
 if you have any bugs/requests go to the [Issues](https://github.com/Tinhorn/freezed_intellij_live_templates/issues) tab
+<!-- Plugin description end -->
