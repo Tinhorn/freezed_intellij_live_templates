@@ -4,6 +4,9 @@
 ### Changed
 - Upgrading Gradle Version
 
+### Removed
+- Remove pluginUtilBuild to made compatible with future build of intellij
+
 
 ## [1.0.7]
 ### Changed
