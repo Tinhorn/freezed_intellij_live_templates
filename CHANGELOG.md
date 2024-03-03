@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+### Changed
+
+- Updated Intellij Version
+
+### Removed
+
+- Removed pluginuntilBuild to make compatible with future builds
+
+
 ## 1.0.8 - 2023-11-06
 
 ### Changed
