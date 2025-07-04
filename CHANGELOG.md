@@ -2,6 +2,12 @@
 
 ## Unreleased
 
+### Added
+- freezedSealedClass, freezedAbstractClass, freezedEmptyConst liveTemplates
+
+### Changed
+- freezedConst now shows <3.0.0 to show it can't be used in >3.0.0 freezed instances
+
 ## 1.0.9 - 2024-03-03
 
 ### Changed

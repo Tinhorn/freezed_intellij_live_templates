@@ -1,4 +1,16 @@
 <templateSet group="Freezed">
+    <template name="freezedSealedClass" value="@freezed&#10;sealed class $NAME$ with _$$$NAME$ {&#10;}" description="Create a freezed class with the keyword sealed" toReformat="true" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="DART_TOPLEVEL" value="true" />
+        </context>
+    </template>
+    <template name="freezedAbstractClass" value="@freezed&#10;abstract class $NAME$ with _$$$NAME$ {&#10;}" description="Create a freezed class with the keyword abstract" toReformat="true" toShortenFQNames="true">
+        <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+        <context>
+            <option name="DART_TOPLEVEL" value="true" />
+        </context>
+    </template>
     <template name="freezedClass" value="@freezed&#10;class $NAME$ with _$$$NAME$ {&#10;}" description="Create a freezed Class" toReformat="true" toShortenFQNames="true">
         <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
         <context>
@@ -25,7 +37,15 @@
             <option name="DART_TOPLEVEL" value="false" />
         </context>
     </template>
-    <template name="freezedConst" value="const factory $NAME$() = _$NAME$;&#10;" description="Create a basic freezed constructor" toReformat="false" toShortenFQNames="true">
+    <template name="freezedConst" value="const factory $NAME$() = _$NAME$;&#10;" description="Create a basic freezed constructor (&lt;3.0.0)" toReformat="false" toShortenFQNames="true">
+        <variable name="NAME" expression="dartClassName()" defaultValue="" alwaysStopAt="false" />
+        <context>
+            <option name="DART" value="true" />
+            <option name="DART_STATEMENT" value="false" />
+            <option name="DART_TOPLEVEL" value="false" />
+        </context>
+    </template>
+    <template name="freezeEmptyConst" value="const factory $NAME$._() = _$NAME$;&#10;" description="Create a freezed private constructor to enable generated code to extend/subclass the class" toReformat="false" toShortenFQNames="true">
         <variable name="NAME" expression="dartClassName()" defaultValue="" alwaysStopAt="false" />
         <context>
             <option name="DART" value="true" />
